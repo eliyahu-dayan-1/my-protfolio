@@ -1,4 +1,4 @@
-export const size = {
+export const SIZES = {
     mobileS: '320px',
     mobileM: '375px',
     mobileL: '425px',
@@ -8,13 +8,21 @@ export const size = {
     desktop: '2560px'
 }
 
-export const device = {
-    mobileS: `(min-width: ${size.mobileS})`,
-    mobileM: `(min-width: ${size.mobileM})`,
-    mobileL: `(min-width: ${size.mobileL})`,
-    tablet: `(min-width: ${size.tablet})`,
-    laptop: `(min-width: ${size.laptop})`,
-    laptopL: `(min-width: ${size.laptopL})`,
-    desktop: `(min-width: ${size.desktop})`,
-    desktopL: `(min-width: ${size.desktop})`
+export const DEVICES = {
+    mobileS: `(max-width: ${SIZES.mobileS})`,
+    mobileM: `(max-width: ${SIZES.mobileM})`,
+    mobileL: `(max-width: ${SIZES.mobileL})`,
+    tablet: `(max-width: ${SIZES.tablet})`,
+    laptop: `(max-width: ${SIZES.laptop})`,
+    laptopL: `(max-width: ${SIZES.laptopL})`,
+    desktop: `(max-width: ${SIZES.desktop})`,
+    desktopL: `(max-width: ${SIZES.desktop})`
 };
+
+export const COLOR_PALATES = {
+    color1: '#F9F9F9',
+    color2: '#F5F6F7',
+    color3: '#63707E',
+    color4: '#0EB29B',
+    color5: '#33485F'
+}

@@ -1,0 +1,1 @@
+export { default as AboutMy } from './AboutMy'
