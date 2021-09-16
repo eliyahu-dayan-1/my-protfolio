@@ -3,17 +3,17 @@ import styled from 'styled-components'
 import { Links } from 'ui/general-components/link/links';
 import { portfolioLinksData } from './data'
 
-const Template = styled.div`
+const Portfolio = styled.div`
 
 `;
 
-const ProtfolioLinks = () => {
+const PortfolioLinks = () => {
 
     return (
-        <div>
+        <Portfolio>
             <Links links={portfolioLinksData} />
-        </div>
+        </Portfolio>
     )
 }
 
-export default React.memo(ProtfolioLinks);
+export default React.memo(PortfolioLinks);

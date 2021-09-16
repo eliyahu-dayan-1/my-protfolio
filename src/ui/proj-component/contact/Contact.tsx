@@ -12,7 +12,9 @@ interface Props {
 const Contact = (props: Props) => {
 
     return (
-        <ContactDiv>
+        <ContactDiv
+            id="contact"
+        >
             contact
         </ContactDiv>
     )

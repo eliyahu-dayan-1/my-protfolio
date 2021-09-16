@@ -12,7 +12,9 @@ interface Props {
 const Portfolio = (props: Props) => {
 
     return (
-        <PortfolioDiv>
+        <PortfolioDiv
+            id="portfolio"
+        >
             portfolio here
         </PortfolioDiv>
     )

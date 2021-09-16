@@ -8,7 +8,6 @@ import { Skills } from 'ui/proj-component/skills';
 import { COLOR_PALATES } from 'ui/style/constants';
 
 const MainDiv = styled.main`
-  color: blue;
   flex: 1;
   background-color: ${COLOR_PALATES.color1}
   margin: 0 100px;

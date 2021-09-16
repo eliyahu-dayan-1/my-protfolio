@@ -11,7 +11,9 @@ interface Props {
 const Resume = (props: Props) => {
 
     return (
-        <ResumeDiv>
+        <ResumeDiv
+            id="resume"
+        >
             resume
         </ResumeDiv>
     )

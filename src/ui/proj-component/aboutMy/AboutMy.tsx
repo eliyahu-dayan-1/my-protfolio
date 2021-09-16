@@ -11,11 +11,13 @@ interface Props {
 const AboutMy = (props: Props) => {
 
     return (
-        <AboutMyDiv>
+        <AboutMyDiv
+            id="about_my"
+        >
             about
         </AboutMyDiv>
-        
+
     )
 }
 
-export default React.memo( AboutMy );
+export default React.memo(AboutMy);

@@ -11,7 +11,9 @@ interface Props {
 const Skills = (props: Props) => {
 
     return (
-        <SkillsDiv>
+        <SkillsDiv
+            id="skills"
+        >
             Skills
         </SkillsDiv>
     )

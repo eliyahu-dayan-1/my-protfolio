@@ -1,22 +1,22 @@
 export const portfolioLinksData = [
     {
         title: 'About My',
-        herf: ''
+        href: '#about_my'
     },
     {
         title: 'Skills',
-        herf: ''
+        href: '#skills'
     },
     {
         title: 'Portfolio',
-        herf: ''
+        href: '#portfolio'
     },
     {
         title: 'Resume',
-        herf: ''
+        href: '#resume'
     },
     {
         title: 'Contact',
-        herf: ''
+        href: '#contact'
     },
 ]

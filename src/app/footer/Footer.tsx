@@ -5,7 +5,6 @@ import { pxToRem } from 'ui/style/function.js';
 
 
 const FooterDiv = styled.footer`
-  color: blue;
   height: ${pxToRem(200)};
   background-color: ${COLOR_PALATES.color5}
 `
