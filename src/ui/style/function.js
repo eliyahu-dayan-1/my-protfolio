@@ -1,0 +1,1 @@
+export const pxToRem = (num) => `${num / 16}rem`
