@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const PortfolioDiv = styled.div`
-    height: 400px
+    min-height: 400px
 `;
 
 

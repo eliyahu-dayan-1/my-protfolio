@@ -5,11 +5,11 @@ import { Contact } from 'ui/proj-component/contact';
 import { Portfolio } from 'ui/proj-component/portfolio';
 import { Resume } from 'ui/proj-component/resume';
 import { Skills } from 'ui/proj-component/skills';
-import { COLOR_PALATES } from 'ui/style/constants';
+import { COLORS_PALATE } from 'ui/style/constants';
 
 const MainDiv = styled.main`
   flex: 1;
-  background-color: ${COLOR_PALATES.color1}
+  background-color: ${COLORS_PALATE.color1}
   margin: 0 100px;
 `
 

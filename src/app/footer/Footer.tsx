@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
-import { COLOR_PALATES } from 'ui/style/constants';
+import { COLORS_PALATE } from 'ui/style/constants';
 import { pxToRem } from 'ui/style/function.js';
 
 
 const FooterDiv = styled.footer`
   height: ${pxToRem(200)};
-  background-color: ${COLOR_PALATES.color5}
+  background-color: ${COLORS_PALATE.color5}
 `
 
 function Footer() {

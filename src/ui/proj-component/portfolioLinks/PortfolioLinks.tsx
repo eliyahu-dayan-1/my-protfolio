@@ -11,7 +11,10 @@ const PortfolioLinks = () => {
 
     return (
         <Portfolio>
-            <Links links={portfolioLinksData} />
+            <Links
+                links={portfolioLinksData}
+                initialActiveIdx={0}
+            />
         </Portfolio>
     )
 }

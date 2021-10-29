@@ -24,6 +24,8 @@ const ImgWithLoader = ({
         <Img
             src={src}
             alt={alt}
+            height={height}
+            width={width}
             {...props}
         />
     )

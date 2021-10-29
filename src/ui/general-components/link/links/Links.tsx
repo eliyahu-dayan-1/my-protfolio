@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
 import Link from '../link/Link';
 
@@ -7,18 +7,30 @@ const LinksDiv = styled.div`
 `;
 
 interface Props {
-    links: Array<any>
+    links: Array<any>,
+    initialActiveIdx: number
 };
 
-const Links = ({ links }: Props) => {
+const Links = ({
+    links,
+    initialActiveIdx = 0 }: Props) => {
+
+    const [activeIdx, setActiveIdx] = useState(initialActiveIdx)
+
+    const onLinkClick = useCallback((linkIdx : number) => {
+        setActiveIdx(linkIdx)
+    }, [])
 
     return (
         <LinksDiv>
             {
-                links.map(link => (
+                links.map((link, idx) => (
                     <Link
                         title={link.title}
                         href={link.href}
+                        isActive={activeIdx === idx}
+                        linkIdx={idx}
+                        onLinkClicked={onLinkClick}
                     />)
                 )
             }

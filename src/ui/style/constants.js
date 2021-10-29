@@ -19,7 +19,7 @@ export const DEVICES = {
     desktopL: `(max-width: ${SIZES.desktop})`
 };
 
-export const COLOR_PALATES = {
+export const COLORS_PALATE = {
     color1: '#F9F9F9',
     color2: '#F5F6F7',
     color3: '#63707E',

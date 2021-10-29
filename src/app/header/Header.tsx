@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
 import { PortfolioLinks } from 'ui/proj-component/portfolioLinks';
-import { COLOR_PALATES } from 'ui/style/constants';
+import { COLORS_PALATE } from 'ui/style/constants';
 import { pxToRem } from 'ui/style/function';
 import { ImgWithLoader } from 'ui/general-components/img';
 
 const HeaderDiv = styled.header`
   height: ${pxToRem(120)};
-  background-color: ${COLOR_PALATES.color2};
-  padding: 0 100px;
+  background-color: ${COLORS_PALATE.color2};
   display: flex;
+  justify-content: space-between;
   align-items: center;
 `
+
+
 
 function Header() {
   return (
@@ -19,7 +21,7 @@ function Header() {
       <ImgWithLoader
         src={"./logo-web-developer.png"}
         alt={"header_img"}
-        width={"20px"}
+        width={"100px"}
         height={'auto'}
       />
       <PortfolioLinks />
